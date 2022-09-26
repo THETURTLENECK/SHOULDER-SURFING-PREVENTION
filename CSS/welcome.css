@@ -1,0 +1,89 @@
+html{ 
+    background: url(../GRAPHICS/2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  body
+  {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative
+  }
+  
+  ::-webkit-scrollbar{
+    width: 0px;
+  }
+  
+  #main_body
+  {
+    background-color: #FFFFFF;
+    width: 800px;
+    height: 300px;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 260px 0 0 -390px;
+  }
+  
+  #welcome
+  {
+    padding-top: 40px;
+    margin: 0px 0px;
+    color: #002933;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 0px 2px 3.5px #00000050;
+  }
+
+  #name_line
+  {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 0px 0px;
+    color: #0059ff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 0px 2px 3.5px #00000050;
+  }
+
+  #subline
+  {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: #5d96ff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    text-shadow: 0px 2px 3.5px #00000050;
+  }
+
+  #lo_button
+  {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #0059ff, #00ccff);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 41%;
+    margin-bottom: 15px;
+    font-size: 15px;
+    filter: drop-shadow(0px 3px 2px #00000040);
+  }
+  
+  @media (max-width: 600px) 
+  {
+    #main_body
+    {
+      border-radius: 0px;
+    }
+  }
